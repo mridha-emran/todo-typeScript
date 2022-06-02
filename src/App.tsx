@@ -11,7 +11,7 @@ const App: React.FC =()=> {
 
     e.preventDefault()
     if(todo){
-      setTodos([...todos,{id:Date.now(),todo,isDown:false}])
+      setTodos([...todos,{id:Date.now(),todo,isDone:false}])
       setTodo("")
     }
   }
